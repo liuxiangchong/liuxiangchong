@@ -1,0 +1,12 @@
+This is the Matlab file used to do princile component analysis of compositional data in Liu et al., (2020,JGE). The users will get two bi-plots of the first four components and their scores after two steps:
+1. prepare two texts, one is elements.txt and the other is contents.txt
+   elements.txt contains the names of the elements or variables, and contents.txt contains the concentration data. 
+2. run the program pca_ilr_in_clr.m.
+
+Four notes:
+1. the number of elements must be consistent with the column number of content data;
+2. the first column of contents.txt is the content data of the first element in elements.txt;
+3. the content data cannot have missing values, i.e. the data should be a matrix of n*m;
+4. the first bi-plot is the first vs the second components, the second bi-plot for the third vs the fourth components
+
+Liu, X., Wang, W., Pei, Y., Yu, P., 2020. A knowledge-driven way to interpret the isometric log-ratio transformation and mixture distributions of geochemical data. Journal of Geochemical Exploration, 210: 106417.
